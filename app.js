@@ -84,6 +84,9 @@ class Enemy extends SpaceShip{
                     target.isPresent = false;
                     console.log(`USS ship is destroyed `)         
                     }
+                }else{
+                    console.log("You Missed");
+                }            
                 
                 
                    
